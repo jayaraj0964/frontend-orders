@@ -10,13 +10,16 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/create-product" element={<ProductForm />} />
+        <Route path="/create-product" element={<ProductForm />} /> 
         <Route path="/products" element={<ProductList />} />
         <Route path="/orders" element={<OrderList />} />
         <Route path="/orders/:id" element={<OrderDetails />} />
+        <Route path="/create-order" element={<OrderForm />} />
+
       </Routes>
     </Router>
   );
 }
+//added urikanh
 
 export default App;
